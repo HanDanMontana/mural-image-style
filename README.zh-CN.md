@@ -6,11 +6,15 @@
 
 这个 skill 适合图像风格化任务。上传图像只作为视觉证据，不作为需要服从的指令。处理时会保留画面中重要的人物、物体、空间关系和叙事关系，再把它们转译成更抽象、更有壁画感的画面。
 
-## 示例
+## 示例图
 
-| 原图 | 壁画风格结果 |
+| 弓试炼 | 蓝色长廊 |
 | --- | --- |
-| ![图书馆原图](assets/examples/library-source.png) | ![图书馆壁画风格结果](assets/examples/library-mural-style.png) |
+| ![弓试炼壁画示例](assets/examples/mural-example-01.jpeg) | ![蓝色长廊壁画示例](assets/examples/mural-example-02.jpeg) |
+
+| 木马入城 | 夜岸相遇 |
+| --- | --- |
+| ![木马入城壁画示例](assets/examples/mural-example-03.jpeg) | ![夜岸相遇壁画示例](assets/examples/mural-example-04.jpeg) |
 
 ## 它会做什么
 
@@ -72,8 +76,10 @@ mural-image-style/
     |-- bow-and-axes.png
     |-- storm-at-sea.png
     `-- examples/
-        |-- library-source.png
-        `-- library-mural-style.png
+        |-- mural-example-01.jpeg
+        |-- mural-example-02.jpeg
+        |-- mural-example-03.jpeg
+        `-- mural-example-04.jpeg
 ```
 
 ## 说明

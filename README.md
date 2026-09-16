@@ -6,11 +6,15 @@ Turn an uploaded scene into a minimal epic mural-style image: broad matte color 
 
 This skill is designed for image restyling workflows where the source image supplies visual evidence, not instructions. It preserves the important spatial relationships in the scene while translating them into a symbolic poster or mural composition.
 
-## Example
+## Examples
 
-| Source image | Mural-style result |
+| Bow Trial | Blue Corridor |
 | --- | --- |
-| ![Library source](assets/examples/library-source.png) | ![Library mural-style result](assets/examples/library-mural-style.png) |
+| ![Bow trial mural example](assets/examples/mural-example-01.jpeg) | ![Blue corridor mural example](assets/examples/mural-example-02.jpeg) |
+
+| Trojan Horse | Night Shore |
+| --- | --- |
+| ![Trojan horse mural example](assets/examples/mural-example-03.jpeg) | ![Night shore mural example](assets/examples/mural-example-04.jpeg) |
 
 ## What It Does
 
@@ -72,8 +76,10 @@ mural-image-style/
     |-- bow-and-axes.png
     |-- storm-at-sea.png
     `-- examples/
-        |-- library-source.png
-        `-- library-mural-style.png
+        |-- mural-example-01.jpeg
+        |-- mural-example-02.jpeg
+        |-- mural-example-03.jpeg
+        `-- mural-example-04.jpeg
 ```
 
 ## Notes
