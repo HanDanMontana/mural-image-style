@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mural Image Style"
+  short_description: "Restyle scenes as minimal epic mural images"
+  brand_color: "#1F2933"
+  default_prompt: "Use $mural-image-style to restyle my uploaded image as a minimal epic mural poster."
